@@ -72,7 +72,7 @@ string(armor_times_defense, "armor_times_defense").
 %-----------------------------------------------------------------------------%
 
 from_string(StringUpper, Choice) :-
-    string.to_lower(StringUpper) = String,
+    string.strip(string.to_lower(StringUpper)) = String,
     ( if
         string(SemiChoice, String)
     then
@@ -81,6 +81,18 @@ from_string(StringUpper, Choice) :-
         String = "ap"
     then
         Choice = armor_points
+    else if
+        string.prefix(String, "sh")
+    then
+        Choice = shell
+    else if
+        string.prefix(String, "en")
+    then
+        Choice = energy
+    else if
+        string.prefix(String, "def")
+    then
+        Choice = defense
     else if
         string.prefix(String, "ap"),
         string.sub_string_search(String, "ave", _),

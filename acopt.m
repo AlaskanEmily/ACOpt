@@ -39,7 +39,15 @@
 :- pred usage(io.io::di, io.io::uo) is det.
 usage -->
     io.write_string("Usage:"), io.nl,
-    io.write_string("acopt <weight> <rule> [<flag>={y|n}]... <partfile.json>..."), io.nl.
+    io.write_string("acopt <weight> <rule> [<flag>={y|n}]... <partfile.json>..."), io.nl,
+    io.write_string("rules:"), io.nl,
+    io.write_char('\t'), io.write_string("combined (all)"), io.nl,
+    io.write_char('\t'), io.write_string("armor_points (ap)"), io.nl,
+    io.write_char('\t'), io.write_string("energy (en)"), io.nl,
+    io.write_char('\t'), io.write_string("shell (sh)"), io.nl,
+    io.write_char('\t'), io.write_string("defense (def)"), io.nl,
+    io.write_char('\t'), io.write_string("armor_points_average_defense (ap_ave_def)"), io.nl,
+    io.write_char('\t'), io.write_string("armor_times_defense (ap_def)"), io.nl.
 
 %-----------------------------------------------------------------------------%
 
