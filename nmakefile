@@ -1,0 +1,8 @@
+
+DELETE=del /Q
+RMDIR=rmdir /S /Q
+NOTHING=echo > nul
+MMC=mercury
+LIBSUFFIX=lib
+
+!INCLUDE acopt.mk
