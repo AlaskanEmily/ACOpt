@@ -23,6 +23,62 @@
             "sh":160,
             "en":185,
             "f":{"radar":false, "bio":true, "map":false, "rough":true}
+        },
+        "HD-REDEYE":{
+            "price":41100,
+            "weight":146,
+            "ap":840,
+            "sh":148,
+            "en":151,
+            "f":{"radar":true, "bio":false, "map":true}
+        },
+        "HD-D-9066":{
+            "price":43200,
+            "weight":133,
+            "ap":885,
+            "sh":165,
+            "en":232,
+            "f":{"radar":true, "bio":true, "map":true}
+        },
+        "HD-GRY-NX":{
+            "price":14700,
+            "weight":232,
+            "ap":1004,
+            "sh":194,
+            "en":134,
+            "f":{"radar":false, "bio":false, "map":false, "rough":true}
+        },
+        "HD-06-RADAR":{
+            "price":51800,
+            "weight":145,
+            "ap":741,
+            "sh":109,
+            "en":194,
+            "f":{"radar":true, "bio":false, "map":true}
+        },
+        "HD-ZERO":{
+            "price":22500,
+            "weight":185,
+            "ap":925,
+            "sh":221,
+            "en":149,
+            "f":{"radar":true, "bio":false, "map":false}
+        },
+        "HD-ONE":{
+            "price":68100,
+            "weight":161,
+            "ap":800,
+            "sh":132,
+            "en":129,
+            "f":{"radar":true, "bio":true, "map":true}
+        },
+        "HD-08-DISH":{
+            "price":33200,
+            "weight":133,
+            "ap":870,
+            "sh":205,
+            "en":162,
+            "f":{"radar":false, "bio":false, "map":true}
         }
     },
     "core":{
@@ -79,6 +135,21 @@
             "ap":1743,
             "sh":305,
             "en":453
+        },
+        "AN-3001":{
+            "price":39500,
+            "weight":1612,
+            "ap":1935,
+            "sh":487,
+            "en":353
+        },
+        "ANKS-1A46J":{
+            "price":42100,
+            "weight":2120,
+            "ap":1990,
+            "sh":679,
+            "en":496,
+            "flags":{"incompatible":true}
         },
         "AN-863-B":{
             "price":34000,
